@@ -11,7 +11,6 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-     <script src="script.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-custom-1">
@@ -433,7 +432,29 @@
               <p class="card-text mb-auto">
                 <p>LearnCode on w3Coder is not a marketplace for courses. It is not a startup focusing to sell courses.<span id="dots1">...</span><span id="more1">When we make courses, a lot of love and thought goes in. It is not about rolling out another course. For us, we want to Present best course, yet easy to understand so that we help you to change your life and love the tech, just like we do. Surely, we need to make money to run this platform, But priority is education, tech education.</span></p>
                 <button onclick="myFunction1()" id="myBtn1">Read more</button>
-                </p>
+              </p>
+              <script>
+                function myFunction1() {
+
+    var dots = document.getElementById("dots1");
+    var moreText = document.getElementById("more1");
+    var btnText = document.getElementById("myBtn1");
+  
+     if (dots.style.display === "none"){
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "inline";
+}
+
+else {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "none";
+
+}
+}
+              </script>
+                
               
             </div>
             <div class="col-auto d-none d-lg-block">
