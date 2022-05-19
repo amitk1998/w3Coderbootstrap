@@ -29,12 +29,12 @@ $(document).ready(function () {
 //Untill user leave mouse from Id '#showme1' it will not hide the content of Id
 //But when user leave mouse from Id '#showme1' then it will hide the content 
 
-$('#showme1').on(
+$('.shown1').on(
 
     {   
    
 
-        mouseleave:function()
+        mouseenter:function()
         {
           $('#showme1').hide(1000,function()
           {
@@ -63,7 +63,7 @@ $('#showme1').on(
 
    {   
   
-  mouseenter:function()
+  click:function()
 {
   $('#showme2').show(1500,function()
   {
@@ -80,12 +80,12 @@ $('#showme1').on(
 //Untill user leave mouse from Id '#showme2' it will not hide the content of Id
 //But when user leave mouse from Id '#showme2' then it will hide the content 
 
-$('#showme2').on(
+$('.shown2').on(
 
   {   
  
 
-      mouseleave:function()
+      mouseenter:function()
       {
         $('#showme2').hide(1000,function()
         {
@@ -137,7 +137,7 @@ $('.shown3').on(
   {   
  
 
-      dblclick:function()
+      mouseenter:function()
       {
         $('#showme3').hide(1000,function()
         { 
