@@ -137,7 +137,7 @@ $('.shown3').on(
   {   
  
 
-      mouseenter:function()
+      dblclick:function()
       {
         $('#showme3').hide(1000,function()
         { 
