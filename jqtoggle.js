@@ -18,7 +18,7 @@ $('.shown1').on(
    
    click:function()
 {
-   $('#showme1').toggle(1500,function()
+   $('#showme1').toggle(1000,function()
    {
        console.log("Text has been shown successfully",this);
    });
@@ -48,7 +48,7 @@ $('.shown1').on(
   
   click:function()
 {
-  $('#showme2').toggle(1500,function()
+  $('#showme2').toggle(1000,function()
   {
       console.log("Text has been shown successfully",this);
   });
@@ -79,7 +79,7 @@ $('.shown1').on(
   
   click:function()
 {
-  $('#showme3').toggle(1500,function()
+  $('#showme3').toggle(1000,function()
   {
       console.log("Text has been shown successfully",this);
   });
