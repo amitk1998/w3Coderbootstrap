@@ -85,7 +85,7 @@ $('.shown2').on(
   {   
  
 
-      mouseenter:function()
+        mouseenter:function()
       {
         $('#showme2').hide(1000,function()
         {
@@ -137,7 +137,7 @@ $('.shown3').on(
   {   
  
 
-      mouseenter:function()
+        mouseenter:function()
       {
         $('#showme3').hide(1000,function()
         { 
