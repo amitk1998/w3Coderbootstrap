@@ -6,14 +6,15 @@
   background-image: linear-gradient(15deg, #141313 0%, #80d0c7 100%);
   }
 
-.bg-custom-2 {
-background-image: linear-gradient(15deg, #f1f1f1 0%, #f1f1f1 100%);
-
-}
-
-.bg-custom-2:hover{
+.bg-custom-2{
     
   background-image: linear-gradient(15deg, #00baa1 0%, #008CBA 100%);
+  
+  }
+
+  
+.bg-custom-2:hover {
+  background-image: linear-gradient(15deg, #138a76 0%, #0c7769 100%);
   
   }
 /* // Medium devices (tablets, 768px and up) */
@@ -25,10 +26,5 @@ background-image: linear-gradient(15deg, #f1f1f1 0%, #f1f1f1 100%);
   }
 }
 
-#more1 {display: none;}
-#more2 {display: none;}
-
-#more3 {display: none;}
-#more4 {display: none;}
 
 
