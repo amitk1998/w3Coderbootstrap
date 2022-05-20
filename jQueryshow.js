@@ -36,7 +36,7 @@ $('.shown1').on(
 
         mouseenter:function()
         {
-          $('#showme1').hide(1000,function()
+          $('#showme1').hide(1500,function()
           {
           console.log("Text has been hidden successfully",this);
 
@@ -87,7 +87,7 @@ $('.shown2').on(
 
         mouseenter:function()
       {
-        $('#showme2').hide(1000,function()
+        $('#showme2').hide(1500,function()
         {
         console.log("Text has been hidden successfully",this);
 
@@ -139,7 +139,7 @@ $('.shown3').on(
 
         mouseenter:function()
       {
-        $('#showme3').hide(1000,function()
+        $('#showme3').hide(1500,function()
         { 
         console.log("Text has been hidden successfully",this);
 
