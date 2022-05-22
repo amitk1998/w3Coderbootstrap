@@ -1,0 +1,7 @@
+
+
+Web Project Requirements
+
+1.Windows6.1-KB3033929-x64~~~>Window update for .Net framework 4.8
+2.ndp48-devpack-enu~~~>.Net framework 4.8
+3.VSCodeUserSetup-x64-1.67.0~~~>Visual studio code which needs .Net framework 4.8
