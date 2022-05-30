@@ -11,10 +11,10 @@
 }
 .moon
 {
-width:30px;
+width:40px;
  height:20px;
- padding:5px;
  border-radius:10px;
+ margin-left:100px;
  margin-top:15px;
 }
 
