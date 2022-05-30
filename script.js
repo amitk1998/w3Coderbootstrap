@@ -11,10 +11,6 @@
 
 $('document').ready(function()
 {  
-    $('.moon').on(
-        
-      {
- 
   $(".moon").focus(function(){
     $(this).css("background-color", "black");
   });
@@ -22,15 +18,7 @@ $('document').ready(function()
     $(this).css("background-color", "white");
   });
 
-              
-            }
-            
-            
-        });
-    
-
-
-    
+       
 $('#more1').hide();
 
     
