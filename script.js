@@ -5,16 +5,19 @@
     function darkmodeFun() {
    var element = document.body;
    element.classList.toggle("dark-mode");
+        var changecolor=document.button;
+           changecolor.classList.toggle("moon");
+
 }
   
 
 
 $('document').ready(function()
 {  
-  $(".moon").click(function(){
+  $(".moon").focus(function(){
     $(this).css("background-color", "black");
   });
-  $(".moon").focus(function(){
+  $(".moon").blur(function(){
     $(this).css("background-color", "white");
   });
 
