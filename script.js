@@ -11,10 +11,10 @@
 
 $('document').ready(function()
 {  
-  $(".moon").focus(function(){
+  $(".moon").click(function(){
     $(this).css("background-color", "black");
   });
-  $(".moon").blur(function(){
+  $(".moon").focus(function(){
     $(this).css("background-color", "white");
   });
 
