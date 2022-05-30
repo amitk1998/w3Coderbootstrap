@@ -19,11 +19,13 @@ width:30px;
 }
 #moon
 {
-width:20px;
-height:20px;
+
+    width: 22px;
+    height: 25px;
+    margin-left: -4px;
+}
  
 
-}
 
   .bg-custom-1 {
   background-image: linear-gradient(15deg, #141313 0%, #80d0c7 100%);
