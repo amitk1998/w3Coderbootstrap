@@ -2,37 +2,30 @@
 
 
 
-    function darkmodeFun() {
+    function darkmodeFun() 
+{
    var element = document.body;
    element.classList.toggle("dark-mode");
 
 }
+
+ 
   const btn = document.getElementById('dark');
 
 btn.addEventListener('click', function onClick(event) {
   const backgroundColor = btn.style.backgroundColor;
 
-  if (backgroundColor ===black') {
-    btn.style.backgroundColor = 'white';
+  if (backgroundColor ===yellow') {
+    btn.style.backgroundColor = 'black';
 
   } else {
-    btn.style.backgroundColor = 'black';
+    btn.style.backgroundColor = 'white';
 
   }
 });
 
-
-
 $('document').ready(function()
- {  
-    
-//   $(".moon").focus(function(){
-//     $(this).css("background-color", "black");
-//   });
-//   $(".moon").blur(function(){
-//     $(this).css("background-color", "white");
-//   });
-
+ { 
        
 $('#more1').hide();
 
