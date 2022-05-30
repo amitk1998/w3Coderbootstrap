@@ -12,11 +12,11 @@
 btn.addEventListener('click', function onClick(event) {
   const backgroundColor = btn.style.backgroundColor;
 
-  if (backgroundColor === 'white') {
-    btn.style.backgroundColor = 'black';
+  if (backgroundColor ===black') {
+    btn.style.backgroundColor = 'white';
 
   } else {
-    btn.style.backgroundColor = 'white';
+    btn.style.backgroundColor = 'black';
 
   }
 });
