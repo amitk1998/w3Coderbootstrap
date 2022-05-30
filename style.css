@@ -9,6 +9,13 @@
   background-color: black;
   color: white;
 }
+.moon
+{
+width:30px;
+ height:20px;
+ padding:5px;
+ margin-top:20px;
+}
 
   .bg-custom-1 {
   background-image: linear-gradient(15deg, #141313 0%, #80d0c7 100%);
