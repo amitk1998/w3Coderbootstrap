@@ -2,24 +2,24 @@
 
 
 
-    function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-}
+//     function myFunction() {
+//    var element = document.body;
+//    element.classList.toggle("dark-mode");
+// }
   
 
 
 $('document').ready(function()
 {  
-    $('.moon').on(
+    $('body').on(
         
         {   
             
             click:function()
-            {    function myFunction() {
+            {  
    var element = document.body;
    element.classList.toggle("dark-mode");
-}
+
                 {
                     console.log("Text has been shown successfully",this);
                 });
@@ -30,10 +30,10 @@ $('document').ready(function()
         });
     
  
-  $("#moon").focus(function(){
+  $(".moon").focus(function(){
     $(this).css("background-color", "black");
   });
-  $("#moon").blur(function(){
+  $(".moon").blur(function(){
     $(this).css("background-color", "white");
   });
 
