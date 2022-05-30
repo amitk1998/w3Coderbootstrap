@@ -12,6 +12,15 @@
 $('document').ready(function()
 {  
     
+    $(document).ready(function(){
+  $("#moon").focus(function(){
+    $(this).css("background-color", "black");
+  });
+  $("#moon").blur(function(){
+    $(this).css("background-color", "white");
+  });
+});
+    
 $('#more1').hide();
 
     
