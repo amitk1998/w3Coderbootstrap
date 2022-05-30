@@ -2,18 +2,19 @@
 
 
 
-    function darkmodeFun() 
-{
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-
-
 
  
   const btn = document.getElementById('dark');
 
 btn.addEventListener('click', function onClick(event) {
   const backgroundColor = btn.style.backgroundColor;
+    
+    function darkmodeFun() 
+{
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}  
+
 
   if (backgroundColor ===white') {
     btn.style.backgroundColor = 'black';
@@ -24,7 +25,7 @@ btn.addEventListener('click', function onClick(event) {
   }
 });
     
-}   
+ 
 
 $('document').ready(function()
  { 
