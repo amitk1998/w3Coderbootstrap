@@ -2,33 +2,18 @@
 
 
 
-//     function myFunction() {
-//    var element = document.body;
-//    element.classList.toggle("dark-mode");
-// }
+    function darkmodeFun() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
   
 
 
 $('document').ready(function()
 {  
-    $('body').on(
+    $('.moon').on(
         
-        {   
-            
-            click:function()
-            {  
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-
-                {
-                    console.log("Text has been shown successfully",this);
-                });
-                
-            }
-            
-            
-        });
-    
+      {
  
   $(".moon").focus(function(){
     $(this).css("background-color", "black");
@@ -36,6 +21,14 @@ $('document').ready(function()
   $(".moon").blur(function(){
     $(this).css("background-color", "white");
   });
+
+              
+            }
+            
+            
+        });
+    
+
 
     
 $('#more1').hide();
