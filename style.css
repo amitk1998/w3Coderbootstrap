@@ -45,13 +45,7 @@ width:30px;
   
   }
 /* // Medium devices (tablets, 768px and up) */
-@media (max-width: 842px) { 
 
-  .btn,btn-success{
-    margin:5px;
-
-  }
-}
 
 
 
